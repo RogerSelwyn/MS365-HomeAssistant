@@ -28,8 +28,8 @@ nav_order: 4
 For detail on configuration for the individual integrations, please see the pages below:
 
 The detailed permissions for each integration are shown here:
-* [MS365 Calendar](https://rogerselwyn.github.io/MS365-Calendar/installation_and_configuration.md)
-* [MS365 Contacts](https://rogerselwyn.github.io/MS365-Contacts/installation_and_configuration.md)
-* [MS365 Mail](https://rogerselwyn.github.io/MS365-Mail/installation_and_configuration.md)
-* [MS365 Teams](https://rogerselwyn.github.io/MS365-Teams/installation_and_configuration.md)
-* [MS365 To Do](https://rogerselwyn.github.io/MS365-ToDo/installation_and_configuration.md)
+* [MS365 Calendar](https://rogerselwyn.github.io/MS365-Calendar/installation_and_configuration.html)
+* [MS365 Contacts](https://rogerselwyn.github.io/MS365-Contacts/installation_and_configuration.html)
+* [MS365 Mail](https://rogerselwyn.github.io/MS365-Mail/installation_and_configuration.html)
+* [MS365 Teams](https://rogerselwyn.github.io/MS365-Teams/installation_and_configuration.html)
+* [MS365 To Do](https://rogerselwyn.github.io/MS365-ToDo/installation_and_configuration.html)

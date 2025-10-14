@@ -12,11 +12,11 @@ Under "API Permissions" click `Add a permission`, then `Microsoft Graph`, then `
   * Shared - Where the permission ends in `.Shared` this is where access to a shared mailbox has been configured - by putting an email address or ID in the `Email address/ID of 'shared' mailbox` field. Do not put your login email address in this box.
 
 The detailed permissions for each integration are shown here:
-* [MS365 Calendar](https://rogerselwyn.github.io/MS365-Calendar/permissions.md)
-* [MS365 Contacts](https://rogerselwyn.github.io/MS365-Contacts/permissions.md)
-* [MS365 Mail](https://rogerselwyn.github.io/MS365-Mail/permissions.md)
-* [MS365 Teams](https://rogerselwyn.github.io/MS365-Teams/permissions.md)
-* [MS365 To Do](https://rogerselwyn.github.io/MS365-ToDo/permissions.md)
+* [MS365 Calendar](https://rogerselwyn.github.io/MS365-Calendar/permissions.html)
+* [MS365 Contacts](https://rogerselwyn.github.io/MS365-Contacts/permissions.html)
+* [MS365 Mail](https://rogerselwyn.github.io/MS365-Mail/permissions.html)
+* [MS365 Teams](https://rogerselwyn.github.io/MS365-Teams/permissions.html)
+* [MS365 To Do](https://rogerselwyn.github.io/MS365-ToDo/permissions.html)
 
 ## Changing Features and Permissions
 If you decide to enable new features in the integration, or decide to change from read only to read/write, you will very likely get a warning message similar to the following in your logs.
