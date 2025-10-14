@@ -4,7 +4,7 @@ nav_order: 1
 ---
 
 # Overview
-These are the integrations that make up the full suite. It is made up of:
+These are the integrations that make up the full MS365 suite. It is made up of:
 * [MS365 Calendar](https://github.com/RogerSelwyn/MS365-Calendar)
 * [MS365 Contacts](https://github.com/RogerSelwyn/MS365-Contacts)
 * [MS365 Mail](https://github.com/RogerSelwyn/MS365-Mail)
@@ -15,7 +15,7 @@ All the integrations are built to the same standard with the same authentication
 
 # Microsoft 365 Home Assistant Documentation
 
-This repository provides the foundation for guides for all the integrations. Integration specific detail is provided in the documentation for that integration and is linked to from this guide. In general:-
+This repository provides the foundational guides for all the integrations. Integration specific detail is provided in the documentation for the specific integration and is linked to from this guide. In general:-
 1. [Prerequisites](./prerequisites.md) - Guidance on how to setup Entra ID App Registration
 1. [Permissions](./permissions.md) - Optionally pre-add permissions as required by the integration. Required permissions will be requested at authentication time if not already granted.
 1. [Installation](./installation_and_configuration.md) - Install the integration into Home Assistant.
