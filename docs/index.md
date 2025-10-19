@@ -13,6 +13,8 @@ These are the integrations that make up the full MS365 suite. It is made up of:
 
 All the integrations are built to the same standard with the same authentication and configuration mechanism. All the integrations can use the same Entra ID App Registration and secret if desired.
 
+This project would not be possible without the wonderful [python-o365 project](https://github.com/O365/python-o365).
+
 # Microsoft 365 Home Assistant Documentation
 
 This repository provides the foundational guides for all the integrations. Integration specific detail is provided in the documentation for the specific integration and is linked to from this guide. In general:-
