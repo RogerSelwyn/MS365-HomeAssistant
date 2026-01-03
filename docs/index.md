@@ -35,3 +35,8 @@ Within each repository there is also information relevant to the indidual integr
 * [MS365 Mail Documentation](https://rogerselwyn.github.io/MS365-Mail/)
 * [MS365 Teams Documentation](https://rogerselwyn.github.io/MS365-Teams/)
 * [MS365 To Do Documentation](https://rogerselwyn.github.io/MS365-ToDo/)
+
+# Infrastructure-as-code - Terraform
+For those who use Terraform, or who are looking to learn it, [@codycodes](https://github.com/codycodes) has developed a module that will do all the pre-requisites setup for you. His Github repsitory can be found here [terraform-azuread-ms365-hass](https://github.com/codycodes/terraform-azuread-ms365-hass)
+
+My thanks go to Cody for his time on developing this module.
