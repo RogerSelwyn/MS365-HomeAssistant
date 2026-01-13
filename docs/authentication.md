@@ -18,7 +18,7 @@ Do not use Safari on MacOS for this process, you will not be returned the URL at
 
 When adding the integration, leave `Use alternate authentication` disabled.
 1. When prompted click the `Link MS365 account` link.
-1. Login on the Microsoft page; when prompted, authorize the app you created
+1. Login on the Microsoft page using the _account you want information from_; when prompted, authorize the app you created
 1. Copy the URL from the browser URL bar.
 1. Insert into the "Returned URL" field
 1. Click `Submit`.
@@ -28,7 +28,7 @@ This requires the `Use alternate authentication` to be enabled and the redirect 
 
 When adding the integration, enable `Use alternate authentication`.
 1. When prompted click the `Link MS365 account` link.
-1. Login on the Microsoft page; when prompted, authorize the app you created
+1. Login on the Microsoft page using the _account you want information from_; when prompted, authorize the app you created
 1. If required, close the window when the message "This window can be closed" appears.
 1. Click `I authorized successfully`
 
