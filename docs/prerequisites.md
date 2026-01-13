@@ -13,7 +13,7 @@ To allow authentication, you first need to register your application at Entra ID
 
 1. Login at [Entra ID Portal (App Registrations)](https://entra.microsoft.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade). Personal accounts may receive an authentication notification that can be ignored.
 
-1. Create a new App Registration. Give it a name (e.g., `Home Assistant MS365`). 
+1. Create a new App Registration. Give it a name (e.g., `Home Assistant MS365`). This needs to be done by an appropriately authorised person with the authority to create application registrations.
 
    - In Supported account types, choose one of the following as needed by your setup:
       * `Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)`.   
@@ -33,4 +33,4 @@ To allow authentication, you first need to register your application at Entra ID
 
 1. Click `Certificates & secrets` in the Manage section on the left side or `Add a certificate or secret` in the main section. Click `New client secret`. Give it a Description (e.g., 'Home Assistant MS365') and Set the expiration as desired (this appears to be limited to 2 years) and Click `Add`. Copy the **Value** of the client secret now (NOT the Secret ID), it will be hidden later on.  If you lose track of the secret, return here to generate a new one.
 
-1. Optionally click `API permissions` in the Manage section on the left side. Click `Add a permission`, then `Microsoft Graph`, then `Delegated permissions`, add the permissions as detailed on the [permissions page](./permissions.md), and Cliick `Add permissions`. If you don't add permissions to the app, they will be requested when you authenticate to Microsoft 365.
+1. If the user who will login as part of the Home Assistant Integration installation does not have the authority to grant permissions to the application, the permissions will need to be preassigned by a system administrator. Click `API permissions` in the Manage section on the left side. Click `Add a permission`, then `Microsoft Graph`, then `Delegated permissions`, add the permissions as detailed on the [permissions page](./permissions.md), and Click `Add permissions`. If you don't add permissions to the app, they will be requested when you authenticate to Microsoft 365.
