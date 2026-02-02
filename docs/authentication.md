@@ -27,6 +27,7 @@ When adding the integration, leave `Use alternate authentication` disabled.
 This requires the `Use alternate authentication` to be enabled and the redirect URI in your Entra ID App Registration set to `https://<your_home_assistant_url_or_local_ip>/api/ms365` (Nabu Casa users should use `https://<NabuCasaBaseAddress>/api/ms365` instead).
 
 When adding the integration, enable `Use alternate authentication`.
+1. Ensure your Home Assistant External URL is configured correctly and matches the URL you have configured on the Entra App registration.
 1. When prompted click the `Link MS365 account` link.
 1. Login on the Microsoft page using the _account you want information from_; when prompted, authorize the app you created
 1. If required, close the window when the message "This window can be closed" appears.
