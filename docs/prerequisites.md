@@ -15,12 +15,14 @@ To allow authentication, you first need to register your application at Entra ID
 
 1. Create a new App Registration. Give it a name (e.g., `Home Assistant MS365`). This needs to be done by an appropriately authorised person with the authority to create application registrations.
 
-   - In Supported account types, choose one of the following as needed by your setup:
+   - If you Tenant security policy allows it, in Supported account types, choose one of the following as needed by your setup:
       * `Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)`.   
       * `Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant)` 
 
-      **Do not use the following:** 
+   - If you Tenant security policy requires single tenancy only, in Supported account types, choose one of the following:
       * `Accounts in this organizational directory only (xxxxx only - Single tenant)` 
+
+   - **Do not use the following:** 
       * `Personal Microsoft accounts only`
 
    - Under `Redirect URI (optional)`. Click `Select a platform`. Select `Web`. Set Redirect URI to `https://login.microsoftonline.com/common/oauth2/nativeclient` (`https://login.partner.microsoftonline.cn/common/oauth2/nativeclient` for 21Vianet). Leave the other fields blank and click Configure.
