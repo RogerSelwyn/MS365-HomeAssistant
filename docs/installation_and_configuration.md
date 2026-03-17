@@ -26,8 +26,6 @@ nav_order: 4
 **Note** To configure a second account, add the integration again via the `Devices & Services` dialogue.
 
 For detail on configuration for the individual integrations, please see the pages below:
-
-The detailed permissions for each integration are shown here:
 * [MS365 Calendar](https://rogerselwyn.github.io/MS365-Calendar/installation_and_configuration.html)
 * [MS365 Contacts](https://rogerselwyn.github.io/MS365-Contacts/installation_and_configuration.html)
 * [MS365 Mail](https://rogerselwyn.github.io/MS365-Mail/installation_and_configuration.html)
